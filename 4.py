@@ -3,7 +3,7 @@ x = int(input('введите целое положительное число')
 max = 0
 while x != 0:
     dig = x % 10
-    if dig>max:
-        max=dig
-    x=x//10
+    if dig > max:
+        max = dig
+    x = x // 10
 print(max)
