@@ -3,7 +3,6 @@ print("введите время в секундах")
 x = int(input())
 hh = x // 3600
 mm = x // 60
-mm=mm-(hh*60)
-ss=x-((hh*3600)+(mm*60))
+mm = mm - (hh * 60)
+ss = x - ((hh * 3600) + (mm * 60))
 print(f"{hh}:{mm}:{ss}")
-
