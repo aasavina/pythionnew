@@ -5,12 +5,11 @@
 income = int(input('введите выручку'))
 cost = int(input('введите издержки'))
 if (income - cost) > 0:
-    r=round(income/cost,4)
-    pax=int(input('сколько сотрудников работает'))
-    rppax=round((income-cost)/pax,2)
+    r = round(income / cost, 4)
+    pax = int(input('сколько сотрудников работает'))
+    rppax = round((income - cost) / pax, 2)
     print(f'прибыль, рентабельность {r}, прибыль на 1 сотрудника {rppax}')
 elif (income - cost) < 0:
     print('убытки')
 else:
     print('в ноль')
-
