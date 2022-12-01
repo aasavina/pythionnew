@@ -10,10 +10,10 @@ m = int(input("введите номер месяца"))
 #    print("осень")
 #else:  print("зима")
 
-seasons = {1: "зима", 2: "весна", 3: "лето", 4: "осень"}
-months_dict = {1: seasons.get(1), 2: seasons.get(1), 3: seasons.get(2), 4: seasons.get(2), 5: seasons.get(2),
-               6: seasons.get(3), 7: seasons.get(3), 8: seasons.get(3), 9: seasons.get(4), 10: seasons.get(4),
-               11: seasons.get(4), 12: seasons.get(1)}
+
+months_dict = {1: "зима", 2: "зима", 3: "весна", 4: "весна", 5: "весна",
+               6: "лето", 7: "лето", 8: "лето", 9: "осень", 10: "осень",
+               11: "осень", 12: "зима"}
 value = months_dict[m]
 
 print(f" это {value}")
