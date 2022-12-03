@@ -5,12 +5,11 @@
 
 num = int(input("введите  кол-во элементов списка"))
 my_list = []
-i=0
-while i<num:
+i = 0
+while i < num:
     my_list.append(i)
-    i=i+1
+    i = i + 1
 print(my_list)
-for el in range(0, (num - 1),2):
-    my_list[el], my_list[el+1] = my_list[el+1], my_list[el]
+for el in range(0, (num - 1), 2):
+    my_list[el], my_list[el + 1] = my_list[el + 1], my_list[el]
 print(f"измененный список\n{my_list}")
-
